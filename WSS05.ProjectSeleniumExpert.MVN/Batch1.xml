@@ -3,14 +3,18 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="login.TC_Watchs_Test"/>
       <class name="tv.Samsong_Test"/>
+      <class name="generic.TC_Login_Test"/>
       <class name="login.TC_JohnLevis_Test"/>
       <class name="tv.LG_Test"/>
       <class name="tv.Sony_Test"/>
+      <class name="generic.ReadData_Test"/>
       <class name="login.TC_Login_001_Test"/>
       <class name="accounts.TC_Accounts_SA_001_Test"/>
-      <class name="accounts.TC_Titan"/>
-      <class name="login.TC_Watchs"/>
+      <class name="accounts.TC_Titan_Test"/>
+      <class name="Anitha.Sample_Test_001"/>
+      <class name="generic.TC_App_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
